@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://kit.fontawesome.com/c9b87eddf0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="script.js"></script>
+<!-- SIDEBAR STARTS -->
+    <nav id="desktop-nav">
+        <div class="logo">
+            <img src="assets/logo2.jpg" alt="Owner">
+            <span id="sidebar_name">Qhanakin Ahmad Zhavi</span>
+            <span class="sidebar_text">Undergraduate Student</span>
+        </div>
+        <div class="icons">
+            <a href="https://instagram.com/kanakinmyth" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/6281379116565" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://discordapp.com/users/461523522326364181" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://t.me/sakanamyth" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#homepage"><i class="fa-solid fa-house"></i> Homepage</a></li>
+                <li><a href="#about"><i class="fa-regular fa-address-card"></i> About</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-universal-access"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="mobile-logo">
+            <img src="assets/logo2.jpg" alt="">
+            <div class="mobile-nav-info">
+                <span id="nav-name">Qhanakin Ahmad Zhavi</span>
+                <span id="nav-text">Undergraduate Student</span>
+            </div>
+        </div>
+        <div class="hamburger_menu">
+            <div class="hamburger_icon" onclick="toggleMenu()"><i class="fa-solid fa-bars fa-lg"></i></div>
+        </div>
+        <div class="menu_links">
+            <div class="break"></div>
+            <a href="#homepage" onclick="toggleMenu()"><i class="fa-solid fa-house"></i> Homepage</a>
+            <a href="#about" onclick="toggleMenu()"><i class="fa-regular fa-address-card"></i> About</a>
+            <a href="#skills" onclick="toggleMenu()"><i class="fa-solid fa-universal-access"></i> Skills</a>
+            <a href="#contact" onclick="toggleMenu()"><i class="fa-regular fa-envelope"></i> Contact</a>
+            <div class="break"></div>
+            <div class="mobile-links">
+                <a href="https://instagram.com/kanakinmyth" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/6281379116565" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://discordapp.com/users/461523522326364181" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://t.me/sakanamyth"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        
+        </div>
+    </nav>
+<!-- SIDEBAR ENDS     -->
+<article id="main">
+    <!-- HOMEPAGE STARTS -->
+    <section id="homepage">
+        <div class="homepage_text">
+            <div class="status-container">
+                <span class="status"><i class="fa-solid fa-circle fa-2xs" style="margin-right: 10px; margin-top: 8px;"></i> Currently working hard on my uni rn! <i class="fa-regular fa-face-grin-stars fa-1x" style="margin-left: 10px; margin-top: 2px;"></i></span>
+            </div>
+            <div class="huge-title">
+                <h1 class="title">Hello! I'm Akin! <i class="fa-regular fa-face-smile-wink fa-1x" style="margin-left: 5px; color: rgb(255, 200, 61);"></i></h1>
+                <h1 class="slogan">Real Things. Striving Toward a Better Individual.</h1>
+            </div>
+            <div class="location"><i class="fa-solid fa-location-dot"></i>  Medan, Indonesia</div>
+            <p class="homepage_intro">An 2023 undergraduate student from University of North Sumatera majoring in Information Technology with little to no experience on this field yet striving to be better.</p>
+            <div>
+                <span class="email" onclick="copyEmail()"><i class="fa-regular fa-copy"></i> Copy E-Mail</span>
+            </div>
+        </div>
+    </section>
+    <!-- HOMEPAGE ENDS -->
+    <!-- ABOUT STARTS -->
+    <section id="about" class="reveal">
+        <div class="profile">
+            <div class="about_text">
+                <div class="about_title">
+                    <h1 class="title">Qhanakin Ahmad Zhavi</h1>
+                    <h1 class="about_occupation">Undergraduate Student</h1>
+                </div>
+                <div class="about_intro">
+                    <p>
+                        Hello there! I'm Akin, an enthusiastic undergraduate student with a passion for computer, science, artificial intelligence, and military-industry stuff. 
+                    </p>
+                    <p>
+                        I'm always eager to learn and grow. I am dedicated to continuous self-improvement, valuing the lessons learned from both mistakes and weaknesses as opportunities for growth. Let's connect and explore how we can work together to make a positive impact!
+                    </p>
+                </div>
+            </div>
+            <div class="about_image">
+                <img src="assets/profile_image.jpg" alt="Profile Picture" class="profile_image">
+            </div>
+        </div>
+        <div class="about_education">
+            <div class="title3">
+                <h2>Education</h2>
+            </div>
+            <div class="about-edu-container">
+                <div class="edu_container">
+                    <div class="year">2017 - 2020</div>
+                    <div class="school_info">SMPIT Nurul Azizi</div>
+                </div>
+                <div class="break"></div>
+                <div class="edu_container">
+                    <div class="year">2020 - 2023</div>
+                    <div class="school_container">
+                        <div class="school_info">SMA Harapan Medan</div>
+                        <div class="school_info2">My most significant achievement was receiving the Silver Medal at the Universitas Terbuka Medan Science Competition (UTSC).</div>
+                    </div>
+                </div>
+                <div class="break"></div>
+                <div class="edu_container">
+                    <div class="year">2023 - Currently</div>
+                    <div class="school_container">
+                        <div class="school_info">University of North Sumatera</div>
+                        <div class="school_info2">S1 - Information Technology</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT ENDS -->
+    <!-- SKILLS STARTS -->
+    <section id="skills" class="reveal">
+        <div class="skills_title">
+            <h1 class="title">Skills</h1>
+        </div>
+        <div class="programming_container">
+            <div class="catalog"><i class="fa-brands fa-html5"></i>HTML</div>
+            <div class="catalog"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+            <div class="catalog"><i class="fa-brands fa-js"></i>Java Script</div>
+            <div class="catalog"><i class="fa-brands fa-bootstrap"></i>Bootstrap</div>
+        </div>
+        <div class="break"></div>
+        <div class="tools">
+            <h2 class="title3">Tools</h2>
+            <div class="tools_container">
+                <div class="catalog">Visual Studio Code</div>
+                <div class="catalog">Microsoft Office</div>
+                <div class="catalog">ChatGPT</div>
+                <div class="catalog">GitHub</div>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="soft_skills">
+            <h2 class="title3">Soft Skills</h2>
+            <div class="softskills_container">
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Problem Solving</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Adaptability</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Work-Ethic</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Integrity</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Open-Mindedness</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Empathy</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Trustworthiness</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Teamwork</div>
+                <div class="skilltype"><i class="fa-solid fa-check"></i> Growth Mindset</div>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="language">
+            <h2 class="title3">Language</h2>
+            <div class="language_container">
+                <div class="bahasa">
+                    <p class="lang_info">Bahasa Indonesia</p>
+                    <div class="table_container">
+                        <span class="value_bahasa">100%</span>
+                    </div>
+                </div>
+                <div class="english">
+                    <p class="lang_info">English</p>
+                    <div class="table_container">
+                        <span class="value_eng">60%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SKILL ENDS -->
+    <!-- CONTACT STARTS -->
+    <section id="contact" class="reveal">
+        <div class="contact_intro">
+            <h1 class="title">Let's Connect! <i class="fa-solid fa-rocket" style="color: rgb(220,20,60);"></i></h1>
+            <p class="intro1">Have a question or want to chat? Whether it's about career opportunities, collaborations, or just saying hello, I'm always excited to hear that.</p>
+        </div>
+        <div class="break"></div>
+        <div class="contact_info">
+            <div class="email_info">
+                <h2 class="mail">qhanakin@gmail.com</h2>
+                <p>E-mail</p>
+            </div>
+            <div class="phone_num">
+                <h2 class="phone">+62 813-7911-6565</h2>
+                <p>Phone</p>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="email_button">
+            <span class="email" onclick="copyEmail()"><i class="fa-regular fa-copy"></i> Copy E-Mail</span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="break"></div>
+        <div class="closing">
+            <span>Made by <span style="color: white;">akin</span></span>
+            <span>©2024</span>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+    <!-- CONTACT ENDS -->
+</article>
+</body>
+</html>

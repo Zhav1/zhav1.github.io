@@ -1,0 +1,106 @@
+
+@media screen and (max-width: 1024px) {
+    #desktop-nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        box-sizing: border-box;
+    }
+    #main {
+        left: 0;
+        max-width: 100%;
+        margin: 0 10px 0 10px;
+        top: 12vh;
+        position: relative;
+        z-index: auto;
+        box-sizing: border-box;
+        padding-top: 50px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .title3 {
+        font-size: 26px;
+    }
+    /* HOMEPAGE */
+    .homepage_text {
+        padding: 10px;
+    }
+    .slogan {
+        font-size: 32px;
+        line-height: 3rem;
+    }
+    .status-container {
+        flex-wrap: wrap;
+    }
+    .status {
+        font-size: 12px;
+    }
+    .huge-title {
+        gap: 10px;
+    }
+    /* ABOUT */
+    #about {
+        padding: 0 10px 0 10px;
+        margin-bottom: 150px;
+    }
+    .about_text {
+        width: 100%;
+    }
+    .about_image {
+        display: none;
+    }
+    .about_occupation {
+        font-size: 26px;
+    }
+    .about_title .title {
+        font-size: 26px;
+    }
+    .edu_container {
+        flex-direction: column;
+    }
+    .school_container{
+        width: 100%;
+    }
+    .year {
+        width: 100%;
+    }
+    /* SKILLS */
+    #skills {
+        padding: 0 10px 0 10px;
+        margin-bottom: 150px;
+    }
+    .programming_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .tools_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .softskills_container {
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+        grid-template-rows: repeat(5, minmax(0px, 1fr));
+    }
+    /* CONTACT */
+    #contact {
+        padding: 0 10px 0 10px;
+    }
+    .contact_info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .closing {
+        font-size: 14px;
+    }
+
+
+
+
+
+    
+}
